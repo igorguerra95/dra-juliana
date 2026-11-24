@@ -32,7 +32,7 @@ export const ClinicalImage: React.FC<ClinicalImageProps> = ({
           {fallbackTitle}
         </p>
         <p className="mt-1 max-w-xs text-xs text-muted-foreground">
-          Dra. Julyana · Ortopedia, Traumatologia e Fisioterapia Esportiva
+          Dra. Julyana · Ortopedia, Traumatologia e Reabilitação Clínica
         </p>
       </div>
     );

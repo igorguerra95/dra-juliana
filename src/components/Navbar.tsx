@@ -155,7 +155,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onContactClick }) => {
                 </div>
 
                 <p className="mt-5 text-xs font-medium text-muted-foreground">
-                  Ortopedia · Traumatologia · Fisioterapia Esportiva
+                  Ortopedia · Traumatologia · RPG · Pilates Clínico
                 </p>
 
                 <nav aria-label="Menu mobile" className="mt-6 flex flex-col gap-1">

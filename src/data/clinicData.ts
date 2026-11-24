@@ -8,7 +8,7 @@ import type {
 
 export const CLINIC_CONTACT = {
   brandShort: 'Dra. Julyana',
-  brandFull: 'Dra Julyana | Ortopedia | Traumatologia | Esportiva',
+  brandFull: 'Dra. Julyana | Ortopedia e Traumatologia',
   address: 'SEU ENDEREÇO AQUI',
   phoneDisplay: '(00) 00000-0000',
   phoneHref: 'tel:+5500000000000',
@@ -28,13 +28,13 @@ export const HERO_METRICS: ClinicalMetric[] = [
     value: 98,
     suffix: '%',
     label: 'Retorno Funcional',
-    detail: 'Pacientes com retomada segura de treinos e rotina sem dor',
+    detail: 'Pacientes com retomada segura da rotina e autonomia sem dor',
   },
   {
     value: 10,
     suffix: ' anos',
     label: 'Dedicação à Ortopedia',
-    detail: 'Prática contínua em traumatologia e reabilitação esportiva',
+    detail: 'Prática contínua em traumatologia e reabilitação musculoesquelética',
   },
   {
     value: 60,
@@ -64,38 +64,23 @@ export const SPECIALTIES: SpecialtyItem[] = [
     colSpanClass: 'lg:col-span-7',
   },
   {
-    id: 'esportiva',
-    number: '02.',
-    title: 'Fisioterapia Esportiva',
-    categoryLabel: 'Atletas Amadores · Alta Performance · Prevenção',
-    summary:
-      'Intervenção orientada para corredores, praticantes de musculação, tênis, futebol e modalidades de impacto, respeitando as demandas biomecânicas de cada gesto esportivo.',
-    clinicalFocus: [
-      'Mapeamento de assimetrias musculares e déficit de controle motor',
-      'Periodização de carga para retorno gradual aos treinos',
-      'Prevenção de recidivas em estiramentos, entorses e pubalgia',
-    ],
-    durationLabel: 'Testes funcionais de retorno ao esporte',
-    colSpanClass: 'lg:col-span-5',
-  },
-  {
     id: 'pos-operatorio',
-    number: '03.',
+    number: '02.',
     title: 'Reabilitação Pós-Operatória',
     categoryLabel: 'LCA · Menisco · Manguito Rotador · Coluna',
     summary:
       'Condução criteriosa das fases inflamatória, proliferativa e de remodelação após cirurgias ortopédicas, com comunicação alinhada à equipe médica.',
     clinicalFocus: [
       'Ganho seguro de amplitude articular nas primeiras semanas',
-      'Ativação neuromuscular precoce e proteção do enxerto',
+      'Ativação neuromuscular precoce e proteção tecidual',
       'Critérios objetivos de força simétrica antes da alta clínica',
     ],
     durationLabel: 'Protocolo alinhado ao cirurgião',
-    colSpanClass: 'lg:col-span-4',
+    colSpanClass: 'lg:col-span-5',
   },
   {
     id: 'rpg',
-    number: '04.',
+    number: '03.',
     title: 'RPG — Reeducação Postural Global',
     categoryLabel: 'Cadeias Musculares · Alinhamento · Escoliose',
     summary:
@@ -106,11 +91,11 @@ export const SPECIALTIES: SpecialtyItem[] = [
       'Correção ergonômica aplicada à rotina profissional',
     ],
     durationLabel: 'Atendimento individual em maca específica',
-    colSpanClass: 'lg:col-span-4',
+    colSpanClass: 'lg:col-span-5',
   },
   {
     id: 'pilates',
-    number: '05.',
+    number: '04.',
     title: 'Pilates Clínico Terapêutico',
     categoryLabel: 'Estabilização Central · Mobilidade · Controle',
     summary:
@@ -118,13 +103,13 @@ export const SPECIALTIES: SpecialtyItem[] = [
     clinicalFocus: [
       'Exercícios em aparelhos com resistência de molas calibrada',
       'Foco em controle lombo-pélvico e proteção articular',
-      'Transição segura entre reabilitação clínica e condicionamento',
+      'Transição segura entre reabilitação clínica e autonomia diária',
     ],
     durationLabel: 'Equipamentos dedicados · Controle clínico',
     imageSrc: '/src/assets/images/specialty_pilates_rpg_1795528162672.jpg',
     imageAlt:
       'Estúdio de Pilates clínico com reformer em madeira clara e iluminação natural para reabilitação postural',
-    colSpanClass: 'lg:col-span-4',
+    colSpanClass: 'lg:col-span-7',
   },
 ];
 
@@ -165,7 +150,7 @@ export const REGION_PROTOCOLS: RegionProtocol[] = [
     specialtyId: 'pos-operatorio',
     headline: 'Reconstrução de LCA, lesão meniscal e condropatia patelar',
     indication:
-      'Indicado para pós-operatório de ligamentos e meniscos, dor anterior ao agachar ou instabilidade durante a corrida.',
+      'Indicado para pós-operatório de ligamentos e meniscos, dor anterior ao agachar ou instabilidade ao caminhar e subir escadas.',
     phases: [
       {
         step: 'Fase 01',
@@ -181,13 +166,13 @@ export const REGION_PROTOCOLS: RegionProtocol[] = [
       },
       {
         step: 'Fase 03',
-        title: 'Pliometria e Retorno ao Esporte',
+        title: 'Estabilidade Dinâmica e Alta Funcional',
         description:
-          'Testes de salto, mudança de direção e índice de simetria entre membros superior a 90% antes da alta.',
+          'Treino de transferência de peso, equilíbrio e índice de simetria entre membros superior a 90% antes da alta.',
       },
     ],
     dischargeCriteria:
-      'Simetria de força entre membros, aterrissagem estável e ausência de derrame articular pós-esforço.',
+      'Simetria de força entre membros, marcha estável e ausência de derrame articular pós-esforço.',
   },
   {
     id: 'ombro',
@@ -211,27 +196,27 @@ export const REGION_PROTOCOLS: RegionProtocol[] = [
       },
       {
         step: 'Fase 03',
-        title: 'Gestos Acima da Cabeça',
+        title: 'Movimentos Funcionais e Laborais',
         description:
-          'Treino específico para natação, tênis, musculação e movimentos laborais de elevação com carga.',
+          'Treino específico para elevação segura acima da cabeça, alcance funcional e atividades cotidianas sem sobrecarga.',
       },
     ],
     dischargeCriteria:
-      'Arco de movimento indolor completo e estabilidade escapular mantida sob fadiga controlada.',
+      'Arco de movimento indolor completo e estabilidade escapular mantida durante a rotina diária.',
   },
   {
     id: 'tornozelo',
-    label: 'Tornozelo e Corrida',
-    specialtyId: 'esportiva',
-    headline: 'Entorses recidivantes, fascite plantar e tendinopatia de Aquiles',
+    label: 'Tornozelo e Pé',
+    specialtyId: 'ortopedia',
+    headline: 'Entorses recidivantes, fascite plantar e tendinopatia do calcâneo',
     indication:
-      'Indicado para corredores com dor no impacto, atletas pós-entorse ligamentar e rigidez crônica de dorsiflexão.',
+      'Indicado para dor ao apoiar o pé pela manhã, histórico de entorses ligamentares e rigidez articular no tornozelo.',
     phases: [
       {
         step: 'Fase 01',
         title: 'Mobilidade Talocrural e Carga Tendínea',
         description:
-          'Mobilização articular para restaurar dorsiflexão e analgesia controlada do tendão calcâneo ou fáscia.',
+          'Mobilização articular para restaurar dorsiflexão e analgesia controlada do tendão calcâneo ou fáscia plantar.',
       },
       {
         step: 'Fase 02',
@@ -241,13 +226,13 @@ export const REGION_PROTOCOLS: RegionProtocol[] = [
       },
       {
         step: 'Fase 03',
-        title: 'Readaptação à Corrida e Impulso',
+        title: 'Readaptação da Marcha e Autonomia',
         description:
-          'Análise de cadência, retorno intervalado ao asfalto e controle de volume semanal sem sobrecarga.',
+          'Correção do padrão de pisada, subida e descida de escadas e tolerância prolongada em pé sem desconforto.',
       },
     ],
     dischargeCriteria:
-      'Equilíbrio dinâmico simétrico e retorno contínuo ao volume de corrida sem dor matinal.',
+      'Equilíbrio dinâmico simétrico e caminhada contínua sem dor matinal ou instabilidade.',
   },
 ];
 
@@ -261,10 +246,10 @@ export const ACADEMIC_CREDENTIALS: AcademicCredential[] = [
   },
   {
     period: 'Pós-Graduação',
-    title: 'Fisioterapia Esportiva e Biomecânica Aplicada',
-    institution: 'Ênfase em Avaliação Funcional e Retorno ao Esporte',
+    title: 'Terapia Manual Ortopédica e Biomecânica Clínica',
+    institution: 'Ênfase em Avaliação Cinético-Funcional e Dor Musculoesquelética',
     focus:
-      'Prevenção de lesões, análise cinemática do gesto esportivo e prescrição objetiva de carga.',
+      'Diagnóstico diferencial mecânico, mobilizações articulares e prescrição progressiva de carga terapêutica.',
   },
   {
     period: 'Formação Internacional',
@@ -286,14 +271,14 @@ export const TESTIMONIALS: RecoveryTestimonial[] = [
   {
     id: 'caso-lca',
     patientName: 'Rafael Henrique Vasconcelos',
-    profile: 'Corredor amador e praticante de futebol · 34 anos',
-    specialty: 'Pós-Operatório de LCA e Fisioterapia Esportiva',
+    profile: 'Analista de sistemas · 34 anos',
+    specialty: 'Reabilitação Pós-Operatória de LCA e Ortopedia',
     beforeState:
-      'Chegou à clínica 14 dias após reconstrução do ligamento cruzado anterior, com edema persistente, limitação de flexão e receio de perder a estabilidade do joelho.',
+      'Chegou à clínica 14 dias após reconstrução do ligamento cruzado anterior, com edema persistente, limitação de flexão e insegurança ao apoiar o joelho.',
     intervention:
-      'Reabilitação estruturada em três fases ao longo de 24 semanas, unindo ganho precoce de extensão, fortalecimento unilateral progressivo e testes funcionais de salto.',
+      'Reabilitação estruturada em três fases ao longo de 24 semanas, unindo ganho precoce de extensão, fortalecimento unilateral progressivo e treino proprioceptivo.',
     measurableOutcome:
-      'Retorno completo aos treinos de corrida e futebol em 6 meses com 96% de simetria de força entre os membros e zero derrame articular.',
+      'Retorno completo à marcha sem claudicação, subida de escadas e rotina ativa em 6 meses, com 96% de simetria de força entre os membros.',
     recoveryWindow: 'Alta clínica em 6 meses',
   },
   {
@@ -312,14 +297,14 @@ export const TESTIMONIALS: RecoveryTestimonial[] = [
   {
     id: 'caso-ombro',
     patientName: 'Eduardo Tavares Nogueira',
-    profile: 'Nadador master e empresário · 48 anos',
+    profile: 'Engenheiro civil · 48 anos',
     specialty: 'Ortopedia e Pilates Clínico Terapêutico',
     beforeState:
-      'Apresentava tendinopatia crônica do supraespinal com bloqueio doloroso acima de 90 graus de elevação, impossibilitando as sessões de natação.',
+      'Apresentava tendinopatia crônica do supraespinal com bloqueio doloroso acima de 90 graus de elevação, dificultando tarefas simples e o sono.',
     intervention:
       'Reequilíbrio da cinemática escapular, protocolo excêntrico progressivo para o manguito rotador e integração postural no Pilates Clínico.',
     measurableOutcome:
-      'Amplitude articular completa restaurada em 8 semanas e retorno às travessias em águas abertas com controle mecânico da braçada.',
-    recoveryWindow: 'Retorno ao esporte em 8 semanas',
+      'Amplitude articular completa restaurada em 8 semanas e retorno integral às atividades profissionais e diárias sem dor noturna.',
+    recoveryWindow: 'Alta funcional em 8 semanas',
   },
 ];

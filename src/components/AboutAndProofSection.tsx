@@ -30,7 +30,7 @@ export const AboutAndProofSection: React.FC<AboutAndProofSectionProps> = ({
             <div className="overflow-hidden rounded-2xl border border-border bg-surface p-2 clinical-shadow">
               <ClinicalImage
                 src="/src/assets/images/dra_julyana_portrait_clean_1795528179099.jpg"
-                alt="Retrato profissional da Dra. Julyana, fisioterapeuta especialista em ortopedia, traumatologia e fisioterapia esportiva"
+                alt="Retrato profissional da Dra. Julyana, fisioterapeuta especialista em ortopedia, traumatologia e reabilitação clínica"
                 fallbackTitle="Dra. Julyana — Fisioterapeuta"
                 aspectClassName="aspect-[3/4]"
                 className="rounded-xl"
@@ -42,7 +42,7 @@ export const AboutAndProofSection: React.FC<AboutAndProofSectionProps> = ({
                 Dra. Julyana
               </p>
               <p className="mt-1 text-xs sm:text-sm text-muted-foreground">
-                Fisioterapia Ortopédica · Traumatologia · Fisioterapia Esportiva
+                Fisioterapia Ortopédica · Traumatologia · RPG e Pilates Clínico
               </p>
               <div className="mt-4 border-t border-border pt-4">
                 <button
@@ -75,15 +75,15 @@ export const AboutAndProofSection: React.FC<AboutAndProofSectionProps> = ({
             <div className="mt-6 space-y-4 text-base leading-relaxed text-muted-foreground">
               <p>
                 A prática clínica da Dra. Julyana parte de uma premissa objetiva: dor persistente e
-                perda de rendimento raramente se resolvem com medidas passivas isoladas. Cada
+                limitações funcionais raramente se resolvem com medidas passivas isoladas. Cada
                 paciente passa por uma investigação biomecânica detalhada para identificar a origem
                 mecânica da sobrecarga.
               </p>
               <p>
-                Com atuação dedicada à Ortopedia, Traumatologia e Fisioterapia Esportiva, o
-                atendimento integra terapia manual de precisão, reeducação postural global (RPG) e
-                Pilates clínico terapêutico em sessões individuais, garantindo segurança técnica do
-                pós-operatório imediato ao retorno às atividades esportivas.
+                Com atuação dedicada à Ortopedia e Traumatologia, o atendimento integra terapia
+                manual de precisão, reeducação postural global (RPG) e Pilates clínico terapêutico
+                em sessões individuais, garantindo segurança técnica do pós-operatório imediato à
+                retomada plena das atividades cotidianas.
               </p>
             </div>
 

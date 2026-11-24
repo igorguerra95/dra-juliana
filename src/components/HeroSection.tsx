@@ -52,7 +52,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onContactClick }) => {
                 variants={heroItem}
                 className="text-xs sm:text-sm font-medium tracking-wide text-primary"
               >
-                Dra. Julyana · Ortopedia · Traumatologia · Fisioterapia Esportiva
+                Dra. Julyana · Ortopedia · Traumatologia · Reabilitação Postural
               </motion.p>
 
               <motion.h1
@@ -66,7 +66,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onContactClick }) => {
                 variants={heroItem}
                 className="mt-6 max-w-2xl text-base sm:text-lg leading-relaxed text-muted-foreground"
               >
-                Reabilitação ortopédica, traumatológica e esportiva conduzida de forma individualizada.
+                Reabilitação ortopédica, traumatológica e postural conduzida de forma individualizada.
                 Da analgesia à reconstrução biomecânica, cada sessão une avaliação criteriosa,
                 terapia manual, RPG e Pilates clínico para devolver segurança ao seu corpo.
               </motion.p>
@@ -105,7 +105,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onContactClick }) => {
             <div className="relative flex-1 overflow-hidden rounded-2xl border border-border bg-surface p-2 clinical-shadow">
               <ClinicalImage
                 src="/src/assets/images/hero_physio_clinic_1795528161186.jpg"
-                alt="Consultório clínico da Dra. Julyana preparado para fisioterapia ortopédica, traumatológica e esportiva"
+                alt="Consultório clínico da Dra. Julyana preparado para fisioterapia ortopédica, traumatológica e reabilitação postural"
                 fallbackTitle="Consultório Clínico Especializado"
                 aspectClassName="aspect-[4/3] lg:aspect-auto lg:h-full"
                 className="rounded-xl"

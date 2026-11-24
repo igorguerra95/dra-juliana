@@ -277,7 +277,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({
                         Agendamento Online
                       </h3>
                       <p className="text-xs sm:text-sm text-muted-foreground">
-                        Avaliação ortopédica, traumatológica, esportiva, RPG ou Pilates clínico
+                        Avaliação ortopédica, traumatológica, pós-operatória, RPG ou Pilates clínico
                       </p>
                     </div>
                   </div>
@@ -421,7 +421,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({
                         setForm({ ...form, complaint: e.target.value });
                         if (errors.complaint) setErrors({ ...errors, complaint: undefined });
                       }}
-                      placeholder="Descreva a região da dor, cirurgia recente, modalidade esportiva ou encaminhamento médico."
+                      placeholder="Descreva a região da dor, cirurgia recente, limitação postural ou encaminhamento médico."
                       className="mt-2 w-full rounded-lg border border-border bg-background p-3.5 text-sm leading-relaxed text-foreground placeholder:text-muted focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/20"
                     />
                     {errors.complaint && (

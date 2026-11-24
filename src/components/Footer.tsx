@@ -14,7 +14,7 @@ export const Footer: React.FC = () => {
             </p>
             <p className="mt-3 max-w-md text-sm leading-relaxed text-muted-foreground">
               Fisioterapia clínica especializada em reabilitação ortopédica, traumatológica,
-              esportiva, Reeducação Postural Global (RPG) e Pilates clínico terapêutico.
+              pós-operatória, Reeducação Postural Global (RPG) e Pilates clínico terapêutico.
             </p>
           </div>
 

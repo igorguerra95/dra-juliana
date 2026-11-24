@@ -1,6 +1,5 @@
 export type SpecialtyId =
   | 'ortopedia'
-  | 'esportiva'
   | 'pos-operatorio'
   | 'rpg'
   | 'pilates';
